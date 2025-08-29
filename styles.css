@@ -167,11 +167,12 @@ p {
     }
 
     .countdown {
-        flex-direction: inline;
+        display: flow-root;
         align-items: center;
     }
 
 }
+
 
 
 
