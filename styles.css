@@ -61,7 +61,7 @@ h1 {
 }
 
 p {
-    color: var(--primary-color);
+    color: blak);
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
@@ -172,4 +172,5 @@ p {
     }
 
 }
+
 
