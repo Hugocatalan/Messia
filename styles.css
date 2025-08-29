@@ -67,7 +67,8 @@ p {
 }
 
 .countdown {
-        justify-content: space-around;
+    display: flex;
+   justify-content: space-around;
     margin: 20px 0;
     flex-wrap: wrap;
 }
@@ -166,8 +167,9 @@ p {
     }
 
     .countdown {
-        flex-direction: column;
+        flex-direction: inline;
         align-items: center;
     }
 
 }
+
