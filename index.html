@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación: Selección Argentina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fondo con TU IMAGEN de Pinterest -->
+    <div class="background" style="background-image: url('../3/futbol.jpeg');"></div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Logo oficial de la AFA -->
+        <div class="logo">
+            <img src="../3/descarga.jpeg" alt="Messi"
+                 alt="Messi" 
+                 style="width: 120px; height: auto;">
+        </div>
+
+        <!-- Título del evento -->
+        <h1>¡Vamos Argentina!</h1>
+        <p>Partido  vs Venezuela</p>
+
+        <!-- Contador regresivo -->
+        <div class="countdown">
+            <div class="time-box">
+                <span id="days">00</span>
+                <p>Días</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <p>Horas</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <p>Minutos</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+
+        <!-- Detalles del evento -->
+        <div class="event-details">
+            <div class="detail-item">
+                <i class="fas fa-calendar-alt"></i>
+                <p><strong>Fecha:</strong> 25 de Junio, 2024</p>
+            </div>
+            <div class="detail-item">
+                <i class="fas fa-clock"></i>
+                <p><strong>Hora:</strong> 20:00 hs (ART)</p>
+            </div>
+            <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><strong>Lugar:</strong> Estadio Monumental</p>
+            </div>
+        </div>
+
+        <!-- Botones de acción -->
+        <div class="action-buttons">
+            <!-- Compartir 
+            <button class="btn share-btn" onclick="shareEvent()">
+                <i class="fab fa-facebook-f"></i> Compartir
+            </button>
+            -->
+            
+            <!-- WhatsApp -->
+            <button class="btn whatsapp-btn" onclick="openWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+            </button>
+            
+            <!-- Google Calendar -->
+            <button class="btn calendar-btn" onclick="addToCalendar()">
+                <i class="far fa-calendar-plus"></i> Agregar al Calendario
+            </button>
+            
+            <!-- Google Maps -->
+            <button class="btn maps-btn" onclick="openMaps()">
+                <i class="fas fa-map-marked-alt"></i> Ver ubicación
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
